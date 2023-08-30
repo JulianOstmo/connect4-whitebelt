@@ -5,4 +5,4 @@
   - necessary setup for a TS project ✅
   - Add Prettier and ESLint ✅
   - Jest ✅
-  - Add husky with lintstaged
+  - Add husky with lintstaged ✅
