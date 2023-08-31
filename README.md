@@ -1,16 +1,31 @@
 # connect4-whitebelt
+
 Connect 4 kata completed as a White belt
 
 https://en.wikipedia.org/wiki/Connect_Four
 
-"Connect Four is a game in which the players choose a color and then take turns dropping coloured tokens into a six-row, seven-column vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens."
+"Connect Four is a game in which the players choose a color and then take turns dropping coloured tokens into a six-row, seven-column vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens.
 
+If the board fills up before either player achieves four in a row, then the game is a draw."
 
-# Yellow Belt Exam Requirements
+"Object: Connect four of your checkers in a row while preventing your opponent from doing the same. But, look out – your opponent can sneak up on you and win the game!
+
+— Milton Bradley, Connect Four "Pretty Sneaky, Sis" television commercial, 1977"
+
+## Entities
+
+- Grid
+  - Column (7)
+    - Space (6)
+      - Contents: empty/Checker
+- Checker
+  - Colour: Red/Yellow
+
+## Yellow Belt Exam Requirements
 
 You can read more about the [general process here]({{ site.baseurl }}{% link graduation/index.md %}).
 
-## Scoring Sheet
+### Scoring Sheet
 
 - Repository setup
   - The solution should be stored in GitHub (IBM or public)
